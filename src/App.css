@@ -9,7 +9,7 @@
     scrollbar-width: none;
 }
 
-@media (max-width: 100%) {
+@media (max-width: 768px) {
     .hero-main-container {
         width: 100%;
     }
