@@ -61,24 +61,6 @@ Storage
 
 ## Project Structure
 
-```
-src
-│
-├── app
-├── assets
-├── components
-├── data
-├── features
-│   ├── auth
-│   ├── cart
-│   ├── order
-│   ├── search
-│   └── wishlist
-├── pages
-├── style
-└── App.jsx
-```
-
 ---
 
 ## Installation
