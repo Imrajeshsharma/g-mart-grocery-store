@@ -1,16 +1,160 @@
-# React + Vite
+# G-Mart Grocery Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+G-Mart is a frontend grocery store web application built using React and Redux Toolkit. The project provides a simple and responsive shopping experience where users can browse products, search items, manage a shopping cart, save products to a wishlist, and place orders.
 
-Currently, two official plugins are available:
+This project was created to improve my frontend development skills and learn state management with Redux Toolkit.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://your-netlify-link.netlify.app
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## GitHub Repository
+
+https://github.com/Imrajeshsharma/g-mart-grocery-store
+
+---
+
+## Features
+
+- User Registration
+- User Login
+- Protected Routes
+- Product Listing
+- Product Categories
+- Product Search
+- Product Details Page
+- Wishlist Management
+- Shopping Cart
+- Increase and Decrease Product Quantity
+- Remove Product from Cart
+- Checkout Page
+- Order Success Page
+- My Orders Page
+- User Profile
+- Responsive Design
+- State Management using Redux Toolkit
+- Data stored using Local Storage and Session Storage
+
+---
+
+## Technologies Used
+
+Frontend
+
+- React.js
+- Vite
+- Redux Toolkit
+- React Router DOM
+- Tailwind CSS
+- React Icons
+
+Storage
+
+- Local Storage
+- Session Storage
+
+---
+
+## Project Structure
+
+```
+src
+│
+├── app
+├── assets
+├── components
+├── data
+├── features
+│   ├── auth
+│   ├── cart
+│   ├── order
+│   ├── search
+│   └── wishlist
+├── pages
+├── style
+└── App.jsx
+```
+
+---
+
+## Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Imrajeshsharma/g-mart-grocery-store.git
+```
+
+Go to the project folder
+
+```bash
+cd g-mart-grocery-store
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+Create a production build
+
+```bash
+npm run build
+```
+
+Preview the production build
+
+```bash
+npm run preview
+```
+
+---
+
+## Current Status
+
+This is a frontend-only project.
+
+The application currently uses Local Storage and Session Storage to store user, cart, wishlist, and order information.
+
+---
+
+## Future Improvements
+
+- Admin Dashboard
+- Product Management
+- Category Management
+- Backend Integration using Node.js and Express.js
+- MongoDB Database
+- JWT Authentication
+- Online Payment Integration
+- Product Reviews and Ratings
+- Coupons and Discounts
+- Order Tracking
+- Dashboard Analytics
+
+---
+
+## Author
+
+Rajesh Sharma
+
+GitHub
+
+https://github.com/Imrajeshsharma
+
+---
+
+## License
+
+This project is created for learning purposes and portfolio presentation.
