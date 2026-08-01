@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+@media (max-width: 100%) {
+    .hero-main-container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .hero-main-container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-main-container {
+        width: 100%;
+    }
+}
